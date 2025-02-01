@@ -1,0 +1,25 @@
+## ilk once user yaradiriq serverde 
+sudo adduser rakif
+
+## rakife admin huququ veririk
+sudo usermod -aG sudo rakif
+
+## gnome desktop imkanlarin yukleyirik
+
+sudo apt update
+sudo apt install ubuntu-gnome-desktop
+
+## xrdp yukleyirik
+
+sudo apt install xrdp
+
+##  sessiya icaze veririk
+echo "gnome-session" > ~/.xsession
+
+## xrdp restart veririk
+sudo systemctl restart xrdp
+
+## divara icaze veririk
+sudo ufw allow 3389/tcp
+
+
