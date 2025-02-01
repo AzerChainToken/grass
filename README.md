@@ -1,8 +1,7 @@
  # ilk once user yaradiriq serverde 
 - `sudo adduser rakif`
-  > burda rakif isdifadeci adidir - kim isdese baska ad teyin ede biler sadece `rakif` sozun `isimim` deyisin
-
-### password isdeyecek men hemise 0000 qoyuram ki daha sonra rdp ile qosulmaq rahat olsun
+> burda rakif isdifadeci adidir - kim isdese baska ad teyin ede biler sadece `rakif` sozun `isimim` deyisin
+> password isdeyecek men hemise 0000 qoyuram ki daha sonra rdp ile qosulmaq rahat olsun
 
 ### rakife admin huququ veririk
 -  `sudo usermod -aG sudo rakif`
